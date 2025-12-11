@@ -1,0 +1,24 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+build/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lockfiles (uncomment if you want to keep package-lock.json in repo)
+# package-lock.json
