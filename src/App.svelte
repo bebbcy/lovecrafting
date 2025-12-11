@@ -1,35 +1,24 @@
 <script>
-	// Vercel Speed Insights is initialized in main.js (entry point)
+  // Speed Insights is initialized once in src/main.js (entry point).
+  // Keep this component focused on UI only.
+  export let name = 'world';
 </script>
 
 <main>
-	<h1>Welcome to Lovecrafting</h1>
-	<p>A craft hub for creative makers</p>
+  <h1>Hello {name}!</h1>
+  <p>Welcome to lovecrafting.</p>
 </main>
 
 <style>
-	:global(body) {
-		margin: 0;
-		padding: 0;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-			Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	}
+  main {
+    text-align: center;
+    padding: 1em;
+    max-width: 640px;
+    margin: 0 auto;
+  }
 
-	main {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 2rem;
-		text-align: center;
-	}
-
-	h1 {
-		color: #333;
-		font-size: 2.5rem;
-		margin-bottom: 1rem;
-	}
-
-	p {
-		color: #666;
-		font-size: 1.1rem;
-	}
+  h1 {
+    color: #ff3e00;
+    font-size: 2em;
+  }
 </style>
